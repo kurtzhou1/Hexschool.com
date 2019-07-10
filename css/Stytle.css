@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap{
+  background: white;
+  width: 1000px;
+  margin:auto;
+}
+.header{
+  background: #f6f6f6;
+  height: 30px; 
+
+}
+.header ul{
+  float: right;
+  padding-right: 30px;
+  line-height: 30px;
+  height: 19px;
+}
+.header li{
+  float: left;
+}
+
+.separate{
+  height: 18px;
+  border:1px solid #cccccc;
+  margin-right: 14px;
+  margin-left: 14px;
+  margin-top: 5px;
+}
+
+.header a{
+  text-decoration: none;
+  font-family: Microsoft JhengHei;
+  font-size: 18px;
+}
+.FB{
+  color: #7388b7;
+}
+.TW{
+  color: #10afed;
+}
+.clearfix{
+  clear: both;
+}
+
+
+.wrap1{
+  height: 40px;
+}
+.logo{
+  float: left;
+  width: 170px;
+  height: 36px;
+  margin-top: 2px;
+}
+.menu{
+  float:right;
+}
+
+.menu li{
+  float: left;
+}
+
+.menu li a{
+  display: block;
+  text-decoration: none;
+  font-family: Microsoft JhengHei;
+  width: 130px;
+  height: 36px;
+  text-align:center;
+  line-height: 36px;
+  color: #00cc99;
+}
+.menu li a:hover{
+  border-bottom: 4px solid #00cc99;
+}
+.img1{
+  position: relative;
+  z-index: 1;
+  width: 1002px;
+  height: 420px;
+}
+.img2{
+  position: absolute;
+  width: 982px;
+  height: 160px;
+  top:22%;
+  z-index: 2;
+  background:rgba(0,0,0,0.3);
+  padding-top:80px;
+  padding-left: 20px;
+}
+.img2 p{
+  font-size: 40px;
+  color: white;
+  font-family: Microsoft JhengHei;
+}
+
+.content{
+  margin-top: 50px;
+}
+.content li{
+  float: left;
+  width: 291px;
+  height: 390px;
+  margin:0px 10px 0px 10px;
+  padding: 20px 10px 0px 10px;
+  border-left:1px solid #f1f1f1;
+  border-right:1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  line-height:25px;
+  box-shadow: 0 3px 3px #d7d7d7;
+}
+
+.content h1{
+  font-weight: bold;
+  font-family: Microsoft JhengHei;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content{
+  font-size: 20px;
+  font-family: Microsoft JhengHei;
+}
+
+.content div{
+    display: block;
+    height: 150px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.wrap2{
+  font-family: Microsoft JhengHei;
+}
+.wrap2 h1{
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.compare{
+  text-align: left;
+  font-size: 20px;
+  margin:auto;
+  width: 1000px;
+}
+.compare td{
+  border-top:1px solid #dddddd;
+  border-bottom:1px solid #dddddd;
+  padding:10px;
+}
+.compare th{
+  border-top:1px solid #dddddd;
+  border-bottom:1px solid #dddddd;
+  background: #f7f7f7;
+  padding:10px;
+  font-weight: bold;
+}
+.table_mark{
+  color: #99dbcb;
+}
+
+.wrap3{
+  width: 1000px;
+  height: 440px;
+  background: linear-gradient(#00644b,#009771);
+  margin-top: 50px;
+  padding-top: 40px;
+}
+.wrap3 h1{
+  font-family: Microsoft JhengHei;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+.text{
+  border-radius:5px 5px 5px 5px;
+  width: 450px;
+  height: 300px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: Microsoft JhengHei;
+}
+
+.information{
+  float:right;
+  margin-top: 20px;
+  color:white;
+  font-size: 25px;
+  font-family: Microsoft JhengHei;
+  margin-right: 70px;
+  line-height: 45px;
+}
+
+.information input{
+  width: 400px;
+  height: 40px;
+}
+
+.footer img{
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.contact{
+  float: right;
+  margin-top: 30px;
+  line-height: 25px;
+  font-size: 20px;
+}
+.contact span{
+  color: red;
+}
