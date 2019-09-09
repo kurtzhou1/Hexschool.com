@@ -1,0 +1,15 @@
+.btn{
+    font-size: 13px;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    background-color: black;
+    color: #a3a3a3;
+    padding: 2px 2px 2px 8px;
+    border-radius: 3px 0px 0px 0px;
+    cursor: pointer;
+    margin-bottom: 3.5px;
+}
+.wrap{
+    position: relative;
+}
